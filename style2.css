@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* utility classes */
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    overflow: auto;
+    /* background-color: lightgray; */
+    /* float: left; */
+}
+
+.navbar .l-large{
+    float: left;
+    padding-top: 15px;
+}
+.navbar{
+    background-color: #333;
+    color: white;
+}
+.navbar ul{
+    float: right;
+}
+.navbar ul li{
+    list-style: none;
+    float: left;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    color: white;
+}
+.navbar ul li a:hover,a:active,
+.navbar .current{
+    background: #444;
+    color: #f7c08a;
+}
+.form-wrap {
+    padding: 15px 0;
+    background: #fff;
+    color: #333;
+}
+.form-wrap .form-group {
+    margin-top: 15px;
+}
+
+
+/* .form-wrap .form-group label {
+    display: block;
+    color: #444;
+} */
+
+.form-wrap .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: #ddd 1px solid;
+    border-radius: 0px;
+    margin-top: 5px;
+}
+.btn {
+    display: block;
+    border-color: #333;
+    margin-top: 10px;
+    padding: 8px;
+    outline: none;
+    font-weight: bold;
+    background: #333;
+    color:#fff;
+    cursor: pointer;
+}
+
+.form-wrap .btn:hover {
+    background:#444;
+}
+
+.form-wrap .bottom-text {
+    margin-top: 15px;
+    font-size: 13px;
+}
+span{
+    color: #f7c08a;
+}
+.container h1{
+    padding: 20px 0;
+}
+.bg-light{
+    width: 33.33%;
+    float: right;
+    background-color: #333;
+    text-align: center;
+    padding: 40px 0;
+    height: 200px;
+
+}
+.bg-orange{
+    width: 33.33%;
+    background-color: #333;
+    float: left;
+    text-align: center;
+    padding: 40px 0;
+    height: 200px;
+
+}
+.bg-color{
+    width: 33.33%;
+    background-color: #333;
+    text-align: center;
+    float: right;
+    padding: 40px 0;
+    height: 200px;
+}
+.font-awesome{
+    color: white;
+    
+}
+.font-awesome p{
+    padding: 25px 0;
+}
+footer{
+    padding: 30px;
+    background-color: #444;
+    color: white;
+    text-align: center;
+}
+.clr{
+    clear: both;
+}
